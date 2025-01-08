@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dalkomm/static/css/main.aec6c77d.css",
+    "main.js": "/dalkomm/static/js/main.6e80f8b2.js",
+    "index.html": "/dalkomm/index.html",
+    "main.aec6c77d.css.map": "/dalkomm/static/css/main.aec6c77d.css.map",
+    "main.6e80f8b2.js.map": "/dalkomm/static/js/main.6e80f8b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec6c77d.css",
+    "static/js/main.6e80f8b2.js"
+  ]
+}
