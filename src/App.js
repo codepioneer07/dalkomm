@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Link } from 'react-router-dom';
 import './App.css';
+
+//yarn add react-router-dom@5
+
+import MainContent from './main';
+import ContactUs from './subComponents/ContactUs';
+import Kakaomap from './map'
+
+//yarn add gh-pages
+//npm install gh-pages
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='body'>
+      <header>
+        <div className='inbox'>
+          <h1 className='logo'><Link to="/"><img src=''/></Link></h1>
+          <nav className='nav'>
+            <ul>
+              <li>menu1</li>
+              <li>menu1</li>
+              <li>menu1</li>
+              <li><Link to="/subComponents/ContactUs">menu1</Link></li>
+            </ul>
+          </nav>
+        </div>
       </header>
+      <div>
+        <Route path="/" exact={true} component={MainContent} />
+        <Route path="/subComponents/ContactUs" component={ContactUs} />
+      </div>
     </div>
   );
 }
