@@ -11,7 +11,7 @@ header{
 
 .inbox{
   margin: 0 auto;
-  width: 1600px;
+  width: 1274px;
   height: 150px;
   background-color: aquamarine;
   display: flex;
@@ -26,7 +26,7 @@ header{
 }
 
 .nav{
-  width: 1274px;
+  width: 951px;
   height: 150px;
   background-color: aqua;
   font-size: 25px;
