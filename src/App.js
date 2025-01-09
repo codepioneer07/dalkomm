@@ -16,7 +16,7 @@ function App() {
     <div className='body'>
       <header>
         <div className='inbox'>
-          <h1 className='logo'><Link to="/"><img src=''/></Link></h1>
+          <h1 className='logo'><Link to="/"><img src="/images/logo.png"/></Link></h1>
           <nav className='nav'>
             <ul>
               <li>menu1</li>
