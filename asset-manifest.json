@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dalkomm/static/css/main.ad59b957.css",
-    "main.js": "/dalkomm/static/js/main.8c5eced1.js",
+    "main.css": "/dalkomm/static/css/main.365d22bc.css",
+    "main.js": "/dalkomm/static/js/main.fc1698bd.js",
     "index.html": "/dalkomm/index.html",
-    "main.ad59b957.css.map": "/dalkomm/static/css/main.ad59b957.css.map",
-    "main.8c5eced1.js.map": "/dalkomm/static/js/main.8c5eced1.js.map"
+    "main.365d22bc.css.map": "/dalkomm/static/css/main.365d22bc.css.map",
+    "main.fc1698bd.js.map": "/dalkomm/static/js/main.fc1698bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad59b957.css",
-    "static/js/main.8c5eced1.js"
+    "static/css/main.365d22bc.css",
+    "static/js/main.fc1698bd.js"
   ]
 }
