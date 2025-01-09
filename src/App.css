@@ -26,10 +26,10 @@ header{
 }
 
 .nav{
-  width: 1112px;
+  width: 830px;
   height: 150px;
   background-color: aqua;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .nav > ul{
@@ -42,11 +42,12 @@ header{
 
 .nav > ul > li{
   padding: 0 37px;
-  font-size: 18px;
 }
 
 .nav > ul > div{
   padding: 0 0 0 37px;
   width: 111px;
   height: 38px;
+  color: orange;
 }
+
