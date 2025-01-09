@@ -24,6 +24,10 @@ header{
   height: 40px;
 }
 
+.logo img{
+  width: 100%;
+}
+
 .nav{
   width: 830px;
   height: 150px;
