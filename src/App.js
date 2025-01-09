@@ -24,7 +24,9 @@ function App() {
               <li>매장</li>
               <li>새로운 소식</li>
               <li>창업안내</li>
-              <li><Link to="/subComponents/ContactUs">SHOP</Link></li>
+              <div>
+                <li><Link to="/subComponents/ContactUs">SHOP</Link></li>
+              </div>
             </ul>
           </nav>
         </div>

@@ -39,3 +39,14 @@ header{
   justify-content: space-around;
   align-items: center;
 }
+
+.nav > ul > li{
+  padding: 0 37px;
+  font-size: 18px;
+}
+
+.nav > ul > div{
+  padding: 0 0 0 37px;
+  width: 111px;
+  height: 38px;
+}
