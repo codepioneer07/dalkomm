@@ -3,6 +3,7 @@ import { Route, Link } from 'react-router-dom';
 import './App.css';
 
 //yarn add react-router-dom@5
+//yarn add react-bootstrap bootstrap
 
 import MainContent from './main';
 import ContactUs from './subComponents/ContactUs';
