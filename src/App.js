@@ -5,9 +5,10 @@ import './App.css';
 //yarn add react-router-dom@5
 //yarn add react-bootstrap bootstrap
 
-import MainContent from './main';
+import HomeArea from './main';
 import ContactUs from './subComponents/ContactUs';
 import Kakaomap from './map'
+import HomeArea from './main';
 
 //yarn add gh-pages
 //npm install gh-pages
@@ -17,7 +18,7 @@ function App() {
     <div className='body'>
       <header>
         <div className='inbox'>
-          <h1 className='logo'><Link to="/"><img src="/images/logo.png" alt=""/></Link></h1>
+          <h1 className='logo'><Link to="/">logo<img src="/images/logo.png" alt=""/></Link></h1>
           <nav className='nav'>
             <ul>
               <li>Dal.Komm</li>
@@ -33,7 +34,7 @@ function App() {
         </div>
       </header>
       <div>
-        <Route path="/" exact={true} component={MainContent} />
+        <Route path="/" exact={true} component={HomeArea} />
         <Route path="/subComponents/ContactUs" component={ContactUs} />
       </div>
     </div>
