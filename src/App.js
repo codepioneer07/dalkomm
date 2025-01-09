@@ -7,7 +7,7 @@ import './App.css';
 
 import HomeArea from './main';
 import ContactUs from './subComponents/ContactUs';
-import Kakaomap from './map'
+import Kakaomap from './map';
 import HomeArea from './main';
 
 //yarn add gh-pages
