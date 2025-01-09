@@ -16,13 +16,15 @@ function App() {
     <div className='body'>
       <header>
         <div className='inbox'>
-          <h1 className='logo'><Link to="/"><img src="/images/logo.png"/></Link></h1>
+          <h1 className='logo'><Link to="/"><img src="/images/logo.png" alt=""/></Link></h1>
           <nav className='nav'>
             <ul>
-              <li>menu1</li>
-              <li>menu1</li>
-              <li>menu1</li>
-              <li><Link to="/subComponents/ContactUs">menu1</Link></li>
+              <li>Dal.Komm</li>
+              <li>메뉴</li>
+              <li>매장</li>
+              <li>새로운 소식</li>
+              <li>창업안내</li>
+              <li><Link to="/subComponents/ContactUs">SHOP</Link></li>
             </ul>
           </nav>
         </div>
